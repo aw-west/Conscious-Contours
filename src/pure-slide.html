@@ -1,0 +1,63 @@
+<style media="screen">
+	.slide {
+		background: #0001;
+		width: 0;
+		transition:
+	}
+</style>
+
+<div class='slider'>
+	<div class='slide'><span>TEXT</span></div>
+	<div class='slide'><span>TEXT</span></div>
+	<div class='slide'><span>TEXT</span></div>
+	<div class='slide'><span>TEXT</span></div>
+	<div class='slide'><span>TEXT</span></div>
+</div>
+<div class='slider-dots'></div>
+
+
+<script>
+	/* Slide */
+	function slidePrev() {
+		alert('prev slide')
+	}
+	function slideNext() {
+		alert('next slide')
+	}
+
+	// ArrowKeys
+	document.onkeydown = function(event) {
+		var char = event.which || event.keyCode
+		if (char == 37) slidePrev()
+		if (char == 39) slideNext()
+	}
+
+	// TouchSwipe
+	let touchstartX = 0
+	let touchendX = 0
+	const slider = document.getElementById('slider')
+	slider.addEventListener('touchstart', e => {
+		touchstartX = e.changedTouches[0].screenX
+	})
+	slider.addEventListener('touchend', e => {
+		touchendX = e.changedTouches[0].screenX
+		if (touchendX < touchstartX) slidePrev()
+		if (touchendX > touchstartX) slideNext()
+	})
+
+	// Slide to
+	var sides = document.getElementsByClassName('slide')
+
+
+	for (var i = 0; i < collapsibles.length; i++) {
+		collapsibles[i].addEventListener('click', function() {
+			this.classList.toggle('active')
+			var content = this.nextElementSibling
+			if (content.style.maxHeight){
+				content.style.maxHeight = null
+			} else {
+				content.style.maxHeight = content.scrollHeight + 'px'
+			}
+		});
+	}
+</script>

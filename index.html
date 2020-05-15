@@ -3,14 +3,18 @@
 
 	Carousel
 		Automate carousel buttons and li
-		li fixed
 
 	Gallery
-		fold
 		Flex box gallery
+		more noticable +/-
 
 	Footer
 		Make useful
+
+Richard West
+	maximise the front cover
+	hyperlink the articles from the table of contents
+	I can't really see the logo on the top could you make the background white or play around with that a bit so it's clearer?
  -->
 
 <!DOCTYPE html>
@@ -41,13 +45,13 @@
 
 			.header {
 				background: #444;
-				height: 4vh;
+				height: 8vh;
 				/* padding: 1vh; */
 			}
 
 			.carousel {
 				max-width: 60vh;
-				height: 90vh;
+				height: 86vh;
 				overflow: hidden visible;
 				margin: auto;
 				font-size: 2vh;
@@ -69,7 +73,7 @@
 				max-height: 0;
 				margin: auto;
 				overflow: hidden;
-				transition: 0.2s ease-out;
+				transition: .5s ease;
 			}
 			.gallery img {
 				width: 33%;
@@ -180,19 +184,19 @@
 
 
 	<script>
-		/* Collapse */
-		var collapsibles = document.getElementsByClassName('gallery-button')
-		for (var i = 0; i < collapsibles.length; i++) {
-			collapsibles[i].addEventListener('click', function() {
-				this.classList.toggle('gallery-button-active')
-				var content = this.nextElementSibling
-				if (content.style.maxHeight){
-					content.style.maxHeight = null
-				} else {
-					content.style.maxHeight = content.scrollHeight + 'px'
-				}
-			});
-		}
+		/* Slider */
+
+
+		/* Gallery */
+		document.getElementsByClassName('gallery-button')[0].addEventListener('click', function() {
+			this.classList.toggle('gallery-button-active')
+			var content = this.nextElementSibling
+			if (content.style.maxHeight){
+				content.style.maxHeight = null
+			} else {
+				content.style.maxHeight = content.scrollHeight + 'px'
+			}
+		})
 	</script>
 
 </html>

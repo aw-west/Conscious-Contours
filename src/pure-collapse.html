@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+	background: #0001;
+}
+.gallery {
+	max-height: 0;
+	overflow: hidden;
+	transition: 0.2s ease-out;
+}
+
+.gallery-button {
+	border: none;
+	background: #666;
+	width: 100%;
+	cursor: pointer;
+}
+.gallery-button:hover { background: #444 }
+.gallery-button:after { content: '\002B'; }
+.gallery-button .active:after { content: '\2212'; }
+
+</style>
+
+</head>
+<body>
+
+
+
+
+<button class='gallery-button collapsible'>Open</button>
+<div class='gallery'>
+	<img src="../img/time/1.jpg" alt="">
+</div>
+
+
+
+</body>
+
+
+
+<script>
+	/* Slide */
+
+	/* Collapse */
+	var collapsibles = document.getElementsByClassName('collapsible')
+	for (var i = 0; i < collapsibles.length; i++) {
+		collapsibles[i].addEventListener('click', function() {
+			this.classList.toggle('active')
+			var content = this.nextElementSibling
+			if (content.style.maxHeight){
+				content.style.maxHeight = null
+			} else {
+				content.style.maxHeight = content.scrollHeight + 'px'
+			}
+		});
+	}
+</script>
+
+
+
+</html>
