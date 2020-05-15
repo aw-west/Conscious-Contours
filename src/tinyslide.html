@@ -1,0 +1,86 @@
+
+<html>
+
+	<head>
+
+		<title>Wonder Beyond</title>
+
+		<!-- Style -->
+		<!-- <link rel='stylesheet' href='https://raw.githubusercontent.com/ganlanyuan/tiny-slider/master/demo/css/styles.css'> -->
+		<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/tiny-slider@2/dist/tiny-slider.min.css' />
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&display=swap' />
+		<style>
+			* {
+				font-family: 'Josefin Sans', sans-serif;
+				object-fit: contain;
+			}
+			img {
+				align: center;
+				max-width: 100%;
+				max-height: 100%
+			}
+			div.carousel {
+				font-size: 1vw;
+				max-width: 50vh;
+			}
+			div.carousel-item p:first-of-type:first-letter {
+				font-size: 2em;
+				/* font-weight: 2em; */
+			}
+		</style>
+
+	</head>
+
+
+	<body>
+
+		<div class='header'>
+			<svg version='2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 650 250' width=100% height=100px>
+				<path id='W' d='M0,0l80,0l80,250l-80,0ZM135,0l80,0l80,250l-90,0ZM270,0l80,0l-40,125Z'/>
+				<path id='B' d='M390,0l80,0l0,250l-80,0ZM525,0l50,0c80,0,80,115,0,115c100,0,100,135,0,135l-50,0Z'/>
+			</svg>
+		</div>
+
+
+		<div class='carousel'>
+			<div class='carousel-item'>
+				<h1 id='lockdown-literature'>Lockdown Literature</h1><h3>Richard West</h3><p>Make it interesting. Make it yours. That's the point - At their best books can articulate thoughts that have been swirling around in my head but I've never had the ability to communicate them and the final line of Ed Douglas' book does just that. What's the point of climbing? There's as good an answer as I've found: "Make it yours" whether that's a sandstone problem in an obscure Northumberland location or a visionary Himalayan quest. The essence of climbing for me is how we interpret the movement and make it interesting for our own bodies. That is why we end up grade chasing as the movements of a once impossible Font 5 now don't provoke the same interest as the 6C. This book caught me in a perfect moment during lockdown, Ed Douglas's prose are readable and thought provoking. The essays are short enough to read in a one sitting which is perfect for my information addled post covid brain. In eight reflective essays that touch topics I feel I should have considered as a climber but in honesty, never have. For example, I have trekked in Nepal and yet never really paid much heed to the underlying assumptions we bring as westerners to Nepal. Or, the oversimplifications we do when we categorise say Sherpa's as an ethnic group above others. Further, I had heard of Kurt Albert the father of the redpoint and reading Douglas's essay I felt energised by his enthusiasm for climbing and for lifelong learning. The ethical dilemma that Ueli Steck put the judges of the Piolet d'Or by not recording his ascent of Anapurna goes to the core of alpinism. I mean I can't imagine everyone being fine with Lance Armstrong just saying he had won all the Tours de France without anyone validating his win.</p><p>The Magician's Glass is a great read and took me on an emotional journey that climbing books rarely do - Shakespeare wrote that art should "hold a mirror up to nature" and Ed Douglas certainly achieves this. However Shakespeare only has a rating of 2.6 on goodreads so I'll leave that opinion to you.</p>
+				<img src='f.jpg' />
+			</div>
+			<div>
+				page 2
+			</div>
+			<div>
+				page 3
+			</div>
+		</div>
+
+	</body>
+
+
+	<foot>
+
+		<!-- Carousel -->
+		<script src="https://cdn.jsdelivr.net/npm/tiny-slider@2/dist/tiny-slider.min.js"></script>
+		<script>
+			var slider = tns({
+				container: '.carousel',
+				mode: 'carousel',
+				items: 1,
+				slideBy: 'page',
+				// center: true,
+				arrowKeys: true,
+				mouseDrag: true,
+				loop: false,
+				// rewind: true,
+				// 'responsive': {'350': {'items': 1}, '500': {'items': 3}},
+				controls: false,
+				navPosition: 'bottom',
+				// navContainer: false,
+			});
+		</script>
+		<!-- http://ganlanyuan.github.io/tiny-slider/ -->
+		<!-- file:///C:/Users/awest/Documents/GitHub/Wonder-Beyond/1/1.html inspect element -->
+</foot>
+
+</html>
