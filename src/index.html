@@ -1,0 +1,138 @@
+
+
+<style>
+	.slider {
+		position: relative;
+		width: 30vw;
+		height: 80vh;
+		margin: auto;
+	}
+
+	.header {
+		background: #444;
+		height: 8vh;
+		/* padding: 1vh; */
+	}
+
+	.carousel {
+		max-width: 60vh;
+		height: 86vh;
+		overflow: hidden visible;
+		margin: auto;
+		font-size: 2vh;
+	}
+	.carousel img {
+		max-width: 100%;
+	}
+	.carousel-indicators,
+	.carousel-control-next,
+	.carousel-control-prev {
+		filter: invert(20%);
+	}
+	.carousel p:first-of-type::first-letter {
+		font-size: 2em;
+	}
+
+	.gallery {
+		max-width: 100vh;
+		max-height: 0;
+		margin: auto;
+		overflow: hidden;
+		transition: .5s ease;
+	}
+	.gallery img {
+		width: 33%;
+		max-height: 40%;
+		display: inline;
+	}
+
+	.footer {
+		height: 2vh;
+		background-color: #444;
+	}
+</style>
+
+
+<script>
+
+	/* Slider */
+	/* Style */
+	function styleActive(slide, dot, active) {
+		if (active) {
+			if (slide !== null) {slide.style.display = 'block'}
+			if (dot !== null) {dot.style.background = 'rgba(0,0,0,.4)'}
+		} else {
+			if (slide !== null) {slide.style.display = 'none'}
+			if (dot !== null) {dot.style.background = 'rgba(0,0,0,.1)'}
+		}
+	}
+	/* Array of Carousels */
+	var slider = document.getElementsByClassName('slider')[0]
+	/* 2DArray of Slides */
+	var slides = slider.getElementsByClassName('slider-item')
+	for (i=0; i<slides.length; i++) {
+		styleActive(slides[i], null, false)
+		slides[i].style.height = '100%'
+		if (!slides[i].classList.contains('slider-scrollOff')) {
+			slides[i].style.overflow = 'auto'
+		}
+	}
+	/* Initial Carousel0 */
+	var i = 0
+	/* dotButtons */
+	if (slider.classList.contains('slider-dots')) {
+		var dotDiv = document.createElement('div')
+		dotDiv.style.width = '100%'
+		dotDiv.style.margin = 'auto'
+		var dot = []
+		for (let _i=0; _i<slides.length; _i++) {
+			dot.push(document.createElement('button'))
+			dot[_i].style.border = 'none'
+			styleActive(null, dot[_i], false)
+			dot[_i].style.width = 90 / slides.length + '%'
+			dot[_i].style.height = '.5em'
+			dot[_i].style.margin = 5 / slides.length + '%'
+			dot[_i].onclick = () => slideTo(_i)
+			dotDiv.appendChild(dot[_i])
+		}
+		slider.appendChild(dotDiv)
+	}
+	styleActive(slides[i], dot[i], true)
+	/* arrowButtons */
+	/* Slide current Carousel to */
+	function slideTo(_i) {
+		if (0 <= _i && _i !== i && _i < slide[j].length) {
+			styleActive(slides[i], dot[i], false)
+			i = _i
+			styleActive(slides[i], dot[i], true)
+		}
+	}
+	/* ArrowKeys */
+	document.onkeydown = (event) => {
+		if (event.which == 37)  { slideTo(i-1) }
+		if (event.which == 39)  { slideTo(i+1) }
+	}
+	/* TouchSwipe */
+	var touchstartX = 0, touchendX = 0
+	document.addEventListener('touchstart', (event) => {
+		touchstartX = event.changedTouches[0].screenX
+	})
+	document.addEventListener('touchend', (event) => {
+		touchendX = event.changedTouches[0].screenX
+		if (touchendX < touchstartX)  { slideTo(i-1) }
+		if (touchstartX < touchendX)  { slideTo(i+1) }
+	})
+
+	/* Gallery */
+	document.getElementsByClassName('gallery-button')[0].addEventListener('click', function() {
+		this.classList.toggle('gallery-button-active')
+		var content = this.nextElementSibling
+		if (content.style.maxHeight){
+			content.style.maxHeight = null
+		} else {
+			content.style.maxHeight = content.scrollHeight + 'px'
+		}
+	})
+
+	document.body.append('JS Success')
+</script>
