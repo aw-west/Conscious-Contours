@@ -1,4 +1,4 @@
 # Contributors
-### Richard West
-
 Thanks to everyone
+
+![](img/Untitled-Three.jpg)
