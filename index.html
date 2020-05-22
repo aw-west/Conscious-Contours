@@ -52,8 +52,8 @@
 			})
 			document.addEventListener('touchend', (event) => {
 				touchendX = event.changedTouches[0].screenX
-				if (touchendX < touchstartX) {displayPrev()}
-				if (touchstartX < touchendX) {displayNext()}
+				if (touchstartX < touchendX) {displayPrev()}
+				if (touchendX < touchstartX) {displayNext()}
 			})
 			function collapse(button) {
 				button.parentElement.classList.toggle('active')
