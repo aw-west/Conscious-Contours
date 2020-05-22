@@ -1,38 +1,6 @@
 
 
 <style>
-	.slider {
-		position: relative;
-		width: 30vw;
-		height: 80vh;
-		margin: auto;
-	}
-
-	.header {
-		background: #444;
-		height: 8vh;
-		/* padding: 1vh; */
-	}
-
-	.carousel {
-		max-width: 60vh;
-		height: 86vh;
-		overflow: hidden visible;
-		margin: auto;
-		font-size: 2vh;
-	}
-	.carousel img {
-		max-width: 100%;
-	}
-	.carousel-indicators,
-	.carousel-control-next,
-	.carousel-control-prev {
-		filter: invert(20%);
-	}
-	.carousel p:first-of-type::first-letter {
-		font-size: 2em;
-	}
-
 	.gallery {
 		max-width: 100vh;
 		max-height: 0;
@@ -44,11 +12,6 @@
 		width: 33%;
 		max-height: 40%;
 		display: inline;
-	}
-
-	.footer {
-		height: 2vh;
-		background-color: #444;
 	}
 </style>
 
@@ -107,22 +70,6 @@
 			styleActive(slides[i], dot[i], true)
 		}
 	}
-	/* ArrowKeys */
-	document.onkeydown = (event) => {
-		if (event.which == 37)  { slideTo(i-1) }
-		if (event.which == 39)  { slideTo(i+1) }
-	}
-	/* TouchSwipe */
-	var touchstartX = 0, touchendX = 0
-	document.addEventListener('touchstart', (event) => {
-		touchstartX = event.changedTouches[0].screenX
-	})
-	document.addEventListener('touchend', (event) => {
-		touchendX = event.changedTouches[0].screenX
-		if (touchendX < touchstartX)  { slideTo(i-1) }
-		if (touchstartX < touchendX)  { slideTo(i+1) }
-	})
-
 	/* Gallery */
 	document.getElementsByClassName('gallery-button')[0].addEventListener('click', function() {
 		this.classList.toggle('gallery-button-active')

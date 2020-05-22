@@ -27,15 +27,34 @@
 		<link rel='stylesheet' href='style.css' />
 		<script>
 			var articleCurrent = null, buttonCurrent = null, articleI = null
+			function displayNext() {
+				display(null, '#1-'+(articleI+1))
+			}
+			function displayPrev() {
+				display(null, '#1-'+(articleI-1))
+			}
 			function display(button, articleID) {
 				if (articleCurrent!==null) {articleCurrent.classList.toggle('active')}
-				articleI = articleID.slice(articleID.length-1)
+				articleI = parseInt(articleID.slice(articleID.length-1))
 				articleCurrent = document.getElementById(articleID)
 				if (articleCurrent!==null) {articleCurrent.classList.toggle('active')}
 				if (buttonCurrent!==null) {buttonCurrent.classList.toggle('active')}
 				buttonCurrent = button
 				if (buttonCurrent!==null) {buttonCurrent.classList.toggle('active')}
 			}
+			document.onkeydown = (event) => {
+				if (event.which == 37) {displayPrev()}
+				if (event.which == 39) {displayNext()}
+			}
+			var touchstartX = 0, touchendX = 0
+			document.addEventListener('touchstart', (event) => {
+				touchstartX = event.changedTouches[0].screenX
+			})
+			document.addEventListener('touchend', (event) => {
+				touchendX = event.changedTouches[0].screenX
+				if (touchendX < touchstartX) {displayPrev()}
+				if (touchstartX < touchendX) {displayNext()}
+			})
 			function collapse(button) {
 				button.parentElement.classList.toggle('active')
 			}
@@ -107,7 +126,6 @@
 			div.carousel>section>div>button.active {
 				background: rgba(0,0,0,.6);
 			}
-
 			div.gallery {
 				margin: auto;
 			}
@@ -127,7 +145,6 @@
 			div.gallery.active>button:after {
 				content: '\2212';
 			}
-
 			div.gallery>section {
 				display: none;
 			}
@@ -143,7 +160,6 @@
 				max-width: 23%;
 				margin: 1%;
 			}
-
 			footer {
 				background: rgba(127,95,31,.4);
 				height: 2vh;
