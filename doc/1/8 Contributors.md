@@ -1,4 +1,5 @@
 # Contributors
-Thanks to everyone
 
-![](img/Untitled-Three.jpg)
+![](img/1-Contributors.png)
+
+### Thanks to everyone
