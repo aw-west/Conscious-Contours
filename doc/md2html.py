@@ -1,17 +1,17 @@
+
+volume = '1'
+
+# Functions
 import os
 import pypandoc
 import re
-
-volume = '1'
-dir = f'../doc/{volume}/'
-
 tag = lambda x,y,z: f'<{x}{y}>{z}</{x}>'
 line = lambda z: re.sub('\n|\r|\t', '', z)
 
 # Articles
 articles = []
-for i, f in enumerate(os.listdir(dir)):
-	article = pypandoc.convert_file(dir+f, to='html5', format='markdown_strict+hard_line_breaks')
+for i, f in enumerate(os.listdir(volume)):
+	article = pypandoc.convert_file(volume+'/'+f, to='html5', format='markdown_strict+hard_line_breaks')
 	article = re.sub(' id="([a-z]|-)*"', '', article)
 	article = tag('article', f" id='#{volume}-{i+2}'", article)
 	article = line(article)
@@ -42,5 +42,5 @@ for i in range(2+len(articles)):
 buttons = tag('div', '', line(''.join(buttons)))
 buttons = line(buttons)
 
-html = '\n'.join([front,contents,*articles,buttons])
-print(html, file=open(f'../doc/{volume}.html',mode='w',encoding='utf-8'))
+html = '\n'.join([front, contents, *articles, buttons])
+print(html, file=open(f'{volume}.html',mode='w',encoding='utf-8'))

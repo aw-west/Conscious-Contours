@@ -1,9 +1,9 @@
 # Lockdown Literature
 ### Richard West
 
-“Make it interesting. Make it yours. That’s the point.”
+Make it interesting. Make it yours. That’s the point.
 
-At their best, books articulate thoughts that have been swirling around in my head, but which I’ve so far been unable to communicate – and Ed Douglas’s book, The Magician’s Glass, does just that.
+At their best, books articulate thoughts that have been swirling around in my head, but which I’ve so far been unable to communicate – and Ed Douglas’s book, *The Magician’s Glass*, does just that.
 
 I commit so much of my life to climbing (time to training, weekends away and earning the money to buy gear and fuel the car) that I often find myself asking the question, what’s the point of climbing? And this line from The Magician’s Glass is as good an answer as I’ve found: Make it yours – whether that’s an obscure sandstone problem in a remote Northumbrian location or a visionary Himalayan quest. This line captures what is for me the essence of climbing, which is movement – how we interpret and find interest in different forms of movement, whether that’s power, flexibility or endurance moves, which speak to our own unique ways of being in the world. That is also why we end up grade chasing, as we explore the limitations of movement, expanding the perceived boundaries of the possible, a once-impossible Font 5 can no longer command the same interest as a 6C.
 

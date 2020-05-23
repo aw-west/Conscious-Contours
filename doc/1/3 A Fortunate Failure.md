@@ -1,11 +1,11 @@
-# A fortunate failure
+# A Fortunate Failure
 ### John Swain
 
 It’s interesting to think how a bad outcome for one party can lead to salvation for another, whether failing to succeed always mean failure.
 
 It was early February 2009 and I was a fresher at Bangor University, full of delusions that three years in Snowdonia would turn me from a fluffy haired weekend warrior into a hardened mountain god. The winter season had started with a bang, offering amazing early season conditions across the whole country, especially in North Wales. I had met Tom Ripley the previous summer in the French Alps and it didn’t take much to persuade him to hitch down from the Lake District for a weekend of winter climbing. Another chance meeting on Beinn Eighe the previous winter had led to me climbing with Hamish Dunn; following a quick phone call, his axes were in the car and he was blasting up the M6 from Nottingham. After the awkward introductions, they seemed to get on. The three of us crammed into my single room, surrounded by a mountain of kit, and we set about deciding what to climb.
 
-With snow down to the ground across Snowdonia, the choices were seemingly endless. After furiously flicking through an old copy of North Wales Winter Climbing, we made the decision to go big! Jubilee Climb, a five-pitch grade V on Clogwyn Du’r Ardurr, “Cloggy,” one of the biggest cliffs in the area high on Snowdon. After packing and re-packing, the three of us bedded down and tried to curtail our shared psyche for the next day’s adventure.
+With snow down to the ground across Snowdonia, the choices were seemingly endless. After furiously flicking through an old copy of *North Wales Winter Climbing*, we made the decision to go big! Jubilee Climb, a five-pitch grade V on Clogwyn Du’r Ardurr, “Cloggy,” one of the biggest cliffs in the area high on Snowdon. After packing and re-packing, the three of us bedded down and tried to curtail our shared psyche for the next day’s adventure.
 
 The alarm went off early. With minimal faff, the three of us were up, fed and in the car, leaving Bangor’s students to their snakebite-induced slumber, racing toward Llanberis in my mighty Suzuki Ignis. We parked near the Snowdon railway, shouldered our packs and – as dawn did its best to break through the morning clouds – started racing up the 90-minute walk to Cloggy. Shrouded by the arrogance of teenage youth, we assumed that no one else would have the nerve to climb on Cloggy in winter and were taken aback as we reached the halfway station to see a team ahead of us. This only sped us up. As we ran past them with youthful enthusiasm, we were relieved to hear they were heading to a different route. Nothing could stop us now.
 
@@ -24,7 +24,10 @@ As Hamish and I joined Tom at the belay, the corner seemed to rear up even more.
 
 This was it; we’d slain the beast, victory was ours! Although, with all our focus on the route, we’d failed to notice a change in the weather. The wind had picked up bringing with it every winter climber’s mortal enemy, spindrift, and lots of it. Things also felt notably warmer than they should have considering Cloggy’s elevation. After Tom followed up without fuss, it was my turn. As I dismantled the belay, I looked up to find the corner had become a raging torrent of spindrift. The following 45 minutes were an exercise in persistence and holding my breath. As I leant into the corner to look for axe placements, I moved into the spindrift’s line of fire and quickly became buried. Every time I looked up to work out the next few moves, snow would race into any exposed opening in my clothing, creating a layer of snow between my skin and jacket. Thankfully, I was on the safe end of the rope, and this whole process proved to be the highlight of the day for Tom and Hamish, as they laughed at me from above, nicely sheltered from maelstrom. I got to the belay ledge a swearing ball of more snow than man and we decided to do a quick time check before setting about the final few pitches to glory.
 
+<!--
 ![John getting a chance to breath pulling out of the corner. Photo credit: Tom Ripley](img/A-Fortunate-Failure-4.jpg "John getting a chance to breath pulling out of the corner. Photo credit: Tom Ripley")
+Maybe link reader's digest
+-->
 
 “Shit!”
 
