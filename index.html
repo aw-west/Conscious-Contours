@@ -50,15 +50,15 @@
 				if (event.which == 37) {displayPrev()}
 				if (event.which == 39) {displayNext()}
 			}
-			var touchstartX = 0, touchendX = 0
-			document.addEventListener('touchstart', (event) => {
-				touchstartX = event.changedTouches[0].screenX
-			})
-			document.addEventListener('touchend', (event) => {
-				touchendX = event.changedTouches[0].screenX
-				if (touchstartX < touchendX) {displayPrev()}
-				if (touchendX < touchstartX) {displayNext()}
-			})
+			// var touchstartX = 0, touchendX = 0
+			// document.addEventListener('touchstart', (event) => {
+			// 	touchstartX = event.changedTouches[0].screenX
+			// })
+			// document.addEventListener('touchend', (event) => {
+			// 	touchendX = event.changedTouches[0].screenX
+			// 	if (touchstartX < touchendX) {displayPrev()}
+			// 	if (touchendX < touchstartX) {displayNext()}
+			// })
 			function collapse(button) {
 				button.parentElement.classList.toggle('active')
 			}
