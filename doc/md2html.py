@@ -20,7 +20,10 @@ for i, f in enumerate(os.listdir(volume)):
 
 # Contents
 contents = re.findall('<h1>(.*?)</h1>', ''.join(articles))
-contents = [f'''<h4><a href="javascript:display('\u0023{volume}-{i+2}')">''' + content + '</a></h4>' for i, content in enumerate(contents)]
+iS = [i+2 for i in range(len(contents))]
+iS[0] -= 1
+contents = [f'''<h4><a href="javascript:display('\u0023{volume}-{i}')">''' + content + '</a></h4>' for i, content in zip(iS, contents)]
+
 contents = '<h1>Contents</h1>' + ''.join(contents)
 contents = tag('article', f" id='#{volume}-2'", contents)
 contents = line(contents)
