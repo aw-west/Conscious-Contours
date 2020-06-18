@@ -1,20 +1,9 @@
 <!DOCTYPE html>
 
 <!-- TODO:
-	Header
-		colour design
-	Carousel
-		contents links
-		fit to scroll
-		touch, keyboard
-	Gallery
-		+/- content
-	Extra
-		Unify file
-		LazyLoad img
+	colour design
+	LazyLoad img
 -->
-
-
 
 <html>
 
@@ -25,13 +14,9 @@
 		<link rel='icon' href='img/logo.png' />
 		<script>
 			var articleCurrent = null, buttonCurrent = null, articleI = null
-			function displayNext() {
-				display('#1-'+(articleI+1))
-			}
-			function displayPrev() {
-				display('#1-'+(articleI-1))
-			}
 			function display(articleID) {
+				if (articleID=='prev') {articleID = '#1-'+(articleI-1)}
+				if (articleID=='next') {articleID = '#1-'+(articleI+1)}
 				articleNew = document.getElementById(articleID)
 				if (articleNew!==null) {
 					if (articleCurrent!==null) {articleCurrent.classList.toggle('active')}
@@ -47,8 +32,8 @@
 				}
 			}
 			document.onkeydown = (event) => {
-				if (event.which == 37) {displayPrev()}
-				if (event.which == 39) {displayNext()}
+				if (event.which == 37) {display('prev')}
+				if (event.which == 39) {display('next')}
 			}
 			var touchstartX = 0, touchendX = 0
 			var touchstartY = 0, touchendY = 0
@@ -60,8 +45,8 @@
 				touchendX = event.changedTouches[0].screenX
 				touchendY = event.changedTouches[0].screenY
 				ratio = (touchendX - touchstartX) / (touchendY - touchstartY)
-				if (5 < ratio) {displayPrev()}
-				if (ratio < -5) {displayNext()}
+				if (5 < ratio) {display('prev')}
+				if (ratio < -5) {display('next')}
 				// sensitivity 4-7 suggested by SO/q/13278087
 			})
 			function collapse(button) {
@@ -78,7 +63,7 @@
 					xhr.send()
 			}
 			document.addEventListener('DOMContentLoaded', ()=>display('#1-0'))
-			var id = window.location.href.split('#')[1].split('-')
+			// var id = window.location.href.split('#')[1].split('-')
 		</script>
 		<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Josefin+Sans' />
 		<style>
