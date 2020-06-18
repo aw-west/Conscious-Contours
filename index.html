@@ -13,20 +13,20 @@
 		<meta charset='utf-8' name='viewport' content='width=device-width, initial-scale=1' />
 		<link rel='icon' href='img/logo.png' />
 		<script>
-			var articleCurrent = null, buttonCurrent = null, articleI = null
+			let articleCurrent, articleNew, buttonCurrent, button, articleI
 			function display(articleID) {
-				if (articleID=='prev') {articleID = '#1-'+(articleI-1)}
-				if (articleID=='next') {articleID = '#1-'+(articleI+1)}
+				if (articleID == 'prev') {articleID = '#1-'+(articleI-1)}
+				if (articleID == 'next') {articleID = '#1-'+(articleI+1)}
 				articleNew = document.getElementById(articleID)
-				if (articleNew!==null) {
-					if (articleCurrent!==null) {articleCurrent.classList.toggle('active')}
+				if (articleNew !== undefined) {
+					if (articleCurrent !== undefined) {articleCurrent.classList.toggle('active')}
 					articleCurrent = articleNew
 					articleI = parseInt(articleCurrent.id.split('-')[1])
 					articleCurrent.classList.toggle('active')
 				}
 				button = document.getElementById(articleID+'button')
-				if (button !== null) {
-					if (buttonCurrent!==null) {buttonCurrent.classList.toggle('active')}
+				if (button !== undefined) {
+					if (buttonCurrent !== undefined) {buttonCurrent.classList.toggle('active')}
 					buttonCurrent = button
 					buttonCurrent.classList.toggle('active')
 				}
@@ -35,8 +35,7 @@
 				if (event.which == 37) {display('prev')}
 				if (event.which == 39) {display('next')}
 			}
-			var touchstartX = 0, touchendX = 0
-			var touchstartY = 0, touchendY = 0
+			let touchstartX, touchendX, touchstartY, touchendY, ratio
 			document.addEventListener('touchstart', (event) => {
 				touchstartX = event.changedTouches[0].screenX
 				touchstartY = event.changedTouches[0].screenY
@@ -53,7 +52,7 @@
 				button.parentElement.classList.toggle('active')
 			}
 			function loadHTML(element) {
-					var xhr = new XMLHttpRequest()
+					let xhr = new XMLHttpRequest()
 					xhr.open('GET', element.getAttribute('include-html'), true)
 					xhr.onload = function(i) {
 						element.innerHTML = this.responseText
@@ -63,7 +62,7 @@
 					xhr.send()
 			}
 			document.addEventListener('DOMContentLoaded', ()=>display('#1-0'))
-			// var id = window.location.href.split('#')[1].split('-')
+			// let id = window.location.href.split('#')[1].split('-')
 		</script>
 		<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Josefin+Sans' />
 		<style>
