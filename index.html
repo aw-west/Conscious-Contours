@@ -11,6 +11,7 @@
 
 		<title>Conscious Contours</title>
 		<meta charset='utf-8' name='viewport' content='width=device-width, initial-scale=1' />
+		<link rel='shortcut icon' href='img/1.png' type='image/x-icon' />
 		<link rel='icon' href='img/logo.png' />
 		<script>
 			let articleCurrent, articleNew, buttonCurrent, button, articleI
@@ -51,16 +52,16 @@
 			function collapse(button) {
 				button.parentElement.classList.toggle('active')
 			}
-			function loadHTML(element) {
-					let xhr = new XMLHttpRequest()
-					xhr.open('GET', element.getAttribute('include-html'), true)
-					xhr.onload = function(i) {
-						element.innerHTML = this.responseText
-						element.removeAttribute('include-html')
-						return true
-					}
-					xhr.send()
-			}
+			// function loadHTML(element) {
+			// 		let xhr = new XMLHttpRequest()
+			// 		xhr.open('GET', element.getAttribute('include-html'), true)
+			// 		xhr.onload = function(i) {
+			// 			element.innerHTML = this.responseText
+			// 			element.removeAttribute('include-html')
+			// 			return true
+			// 		}
+			// 		xhr.send()
+			// }
 			document.addEventListener('DOMContentLoaded', ()=>display('#1-0'))
 			// let id = window.location.href.split('#')[1].split('-')
 		</script>
