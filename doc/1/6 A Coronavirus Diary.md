@@ -26,7 +26,7 @@ muffled reason
  for unpaired arrival
 
 III. Saturday and/or Tuesday
-There is an episode of a TV show where the sky is exactly how I’m trying to describe it. What’s that? Oh this friend has written cryptic clues to species of insects and is fashioning a board game. What’s that? Oh someone else on Instragram pinching a lump of gritstone tied to an encyclopaedia.
+There is an episode of a TV show where the sky is exactly how I’m trying to describe it. What’s that? Oh this friend has written cryptic clues to species of insects and is fashioning a board game. What’s that? Oh someone else on Instagram pinching a lump of gritstone tied to an encyclopaedia.
 
 \*
 
