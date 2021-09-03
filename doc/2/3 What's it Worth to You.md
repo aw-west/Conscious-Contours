@@ -1,4 +1,4 @@
-# What's It Worth To You?
+# What's It Worth to You?
 ### Tim Carne
 
 The Grampians and Mount Arapiles are the centre of rock climbing in Victoria. Many consider these places to be the best in Australia and are a must for visiting international climbers. The Grampians is a massive bush and sandstone range, known for its bouldering, sport and adventurous trad climbing. Close by is Mount Arapiles, a striking quartzite formation rising out of the vast and flat Wimmera plains. It is known as the trad climbing mecca of Australia and home of the infamous 'Punks in the Gym' (32 / 5.14a / 8b+), a climb at one time believed to be the hardest in the world.

@@ -1,4 +1,4 @@
-# The Road to the Dolomites Continued
+# The Road to the Dolomites continued
 ### Tom Conroy
 
 Multip-Pitch Two -: Aresta Ribas - - POLLEGÓ OEST, Montserrat - - 320m

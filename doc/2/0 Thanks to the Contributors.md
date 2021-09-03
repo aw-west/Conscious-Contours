@@ -1,10 +1,10 @@
-# Thanks to the Contributors!
+# Thanks to the contributors!
 
+Tim Carne
+Thomas Conroy
 Addie Mandeville
 Dan Mitchell-Garnett
-Thomas Conroy
 Federico Ruggiero
-Tim Carne
-Jonny West
 Andrew West
+Jonny West
 Richard West
