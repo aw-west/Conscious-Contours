@@ -10,8 +10,7 @@ line = lambda z: re.sub('\n|\r|\t', '', z)
 
 # Articles
 articles = []
-for i, f in enumerate(os.listdir(volume)):
-	if i==0:  i-=1
+for i, f in enumerate(os.listdir(volume), -1):
 	article = pypandoc.convert_file(volume+'/'+f, to='html5', format='markdown_strict+hard_line_breaks')
 	article = re.sub(' id="([a-z]|-)*"', '', article)
 	article = tag('article', f" id='#{volume}-{i+2}'", article)
