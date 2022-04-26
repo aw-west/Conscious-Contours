@@ -46,4 +46,7 @@ buttons = tag('div', '', line(''.join(buttons)))
 buttons = line(buttons)
 html = '\n'.join([front, articles[0], contents, *articles[1:], buttons])
 
+# Images
+html = html.replace('<img ', '<img loading="lazy" ')
+
 print(html, file=open(f'{volume}.html',mode='w',encoding='utf-8'))
