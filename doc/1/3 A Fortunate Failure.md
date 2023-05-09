@@ -9,23 +9,23 @@ With snow down to the ground across Snowdonia, the choices were seemingly endles
 
 The alarm went off early. With minimal faff, the three of us were up, fed and in the car, leaving Bangor’s students to their snakebite-induced slumber, racing toward Llanberis in my mighty Suzuki Ignis. We parked near the Snowdon railway, shouldered our packs and – as dawn did its best to break through the morning clouds – started racing up the 90-minute walk to Cloggy. Shrouded by the arrogance of teenage youth, we assumed that no one else would have the nerve to climb on Cloggy in winter and were taken aback as we reached the halfway station to see a team ahead of us. This only sped us up. As we ran past them with youthful enthusiasm, we were relieved to hear they were heading to a different route. Nothing could stop us now.
 
-![Tom and Hamish dwarfed by Cloggy. The line of Jubilee Climb taking the obvious left-trending corner. Photo credit: John Swain](img/1/A-Fortunate-Failure-1.jpg "Tom and Hamish dwarfed by Cloggy. The line of Jubilee Climb taking the obvious left-trending corner. Photo credit: John Swain")
+![Tom and Hamish dwarfed by Cloggy. The line of Jubilee Climb taking the obvious left-trending corner. Photo credit: John Swain](img/1/A-Fortunate-Failure-1.webp "Tom and Hamish dwarfed by Cloggy. The line of Jubilee Climb taking the obvious left-trending corner. Photo credit: John Swain")
 
 We arrived at the base of the route soaked in sweat, and shared awkward smiles as we stared up at the seemingly blank and horribly steep corner. A game of rock-paper-scissors meant Tom got the first pitch. He set off, after one false start, on a bold and protection-less traverse across vertical reeds and grass to the foot of the corner.
 
-![Tom spacewalking near the top of pitch one. Photo credit: John Swain](img/1/A-Fortunate-Failure-2.jpg "Tom spacewalking near the top of pitch one. Photo credit: John Swain")
+![Tom spacewalking near the top of pitch one. Photo credit: John Swain](img/1/A-Fortunate-Failure-2.webp "Tom spacewalking near the top of pitch one. Photo credit: John Swain")
 
 As Hamish and I joined Tom at the belay, the corner seemed to rear up even more. Nevertheless, our confidence was high and another game of rock-paper-scissors meant it again fell to Tom to slay the beast. However, after emptying the tank, Tom admitted defeat having been quashed at the crux and returned to the belay. Following another rock-paper-scissors, Hamish geared up in silence for his bite at the cherry. What followed made tense viewing as Hamish picked his way upward, crampons smearing on the smooth walls, axes torqueing and hooking on whatever he could find.
 
 “I feel physically sick!” he shouted down, panting as he reached the belay.
 “We don’t care,” came our heartfelt reply.
 
-![Hamish halfway through the main corner pitch. Photo credit: John Swain](img/1/A-Fortunate-Failure-3.jpg "Hamish halfway through the main corner pitch. Photo credit: John Swain")
+![Hamish halfway through the main corner pitch. Photo credit: John Swain](img/1/A-Fortunate-Failure-3.webp "Hamish halfway through the main corner pitch. Photo credit: John Swain")
 
 This was it; we’d slain the beast, victory was ours! Although, with all our focus on the route, we’d failed to notice a change in the weather. The wind had picked up bringing with it every winter climber’s mortal enemy, spindrift, and lots of it. Things also felt notably warmer than they should have considering Cloggy’s elevation. After Tom followed up without fuss, it was my turn. As I dismantled the belay, I looked up to find the corner had become a raging torrent of spindrift. The following 45 minutes were an exercise in persistence and holding my breath. As I leant into the corner to look for axe placements, I moved into the spindrift’s line of fire and quickly became buried. Every time I looked up to work out the next few moves, snow would race into any exposed opening in my clothing, creating a layer of snow between my skin and jacket. Thankfully, I was on the safe end of the rope, and this whole process proved to be the highlight of the day for Tom and Hamish, as they laughed at me from above, nicely sheltered from maelstrom. I got to the belay ledge a swearing ball of more snow than man and we decided to do a quick time check before setting about the final few pitches to glory.
 
 <!--
-![John getting a chance to breath pulling out of the corner. Photo credit: Tom Ripley](img/1/A-Fortunate-Failure-4.jpg "John getting a chance to breath pulling out of the corner. Photo credit: Tom Ripley")
+![John getting a chance to breath pulling out of the corner. Photo credit: Tom Ripley](img/1/A-Fortunate-Failure-4.webp "John getting a chance to breath pulling out of the corner. Photo credit: Tom Ripley")
 Maybe link reader's digest
 -->
 
@@ -67,7 +67,7 @@ As Hamish and Tom arrived, I began checking the guy over. I’d recently done a 
 
 The next few hours passed like seconds as we waited for the mountain rescue team scrambled from Llanberis to join us. Before we knew it, a helicopter had arrived and taken the two casualties to Bangor hospital. As the helicopter took off with the second casualty, the three of us were left sat in the darkness wondering what had just happened, how had a day climbing turned into a mountain rescue? We were then told that the helicopter would return to take us off the hill. I initially refused, but didn’t have much say in the matter and we were soon being winched into a Sea King and flown down to the valley, Cloggy flashing before our eyes.
 
-![Tom and John waiting for the helicopter. Photo credit: Hamish Dunn](img/1/A-Fortunate-Failure-5.jpg "Tom and John waiting for the helicopter. Photo credit: Hamish Dunn")
+![Tom and John waiting for the helicopter. Photo credit: Hamish Dunn](img/1/A-Fortunate-Failure-5.webp "Tom and John waiting for the helicopter. Photo credit: Hamish Dunn")
 
 It was a surreal moment as we climbed out of the helicopter, harnesses and crampons still on, and were taken into the Nant Peris mountain rescue base. Statements were given, we were fed and watered, and then allowed to drive back to my halls of residence. I couldn’t tell you what time we got back, only that we sat and chatted, before quickly succumbing to sleep.
 

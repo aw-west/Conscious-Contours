@@ -29,7 +29,7 @@ contents = line(contents)
 
 # Front Cover
 front_style = f'''
-	background: url(img/{volume}.png);
+	background: url(img/{volume}.webp);
 	background-size: cover;
 '''
 front_content = f'''

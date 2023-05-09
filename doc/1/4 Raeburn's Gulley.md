@@ -7,7 +7,7 @@ Someone seems to have ascended right to top out in a past time, but Rich reminds
 
 As the person on the lead end of the rope, I cannot delegate the decision to anyone else. Though in truth there is no decision to make, there is no backing down. I must commit to the traverse and forget the appeal of the right top out. I attempt to concentrate on my breathing. My focus narrows. I commit cautiously but with intention, trying to anticipate Rich’s movements. In the repetition of moving one limb at a time, my concentration is alternately distilled to a pin prick on the end of the crampon or axe before exploding free. In this cyclical pattern of contraction and expansion, I traverse a knife-edge between debilitating terror and transcendence.
 
-![Topping out Raeburn's Gulley](img/1/Topping-out-Raeburns-Gulley.jpg "Topping out Raeburn's Gulley")
+![Topping out Raeburn's Gulley](img/1/Topping-out-Raeburns-Gulley.webp "Topping out Raeburn's Gulley")
 
 Above Lochnagar, translated as Loch of the Goat or Little Loch of the Noisy Sound, rises Cac Carn Beag, humorously translated as Little Pile of Shit. Though part of the Royal Estate of Balmoral, Queen Victoria was apparently unimpressed, having reportedly stated “But alas! Nothing whatever to be seen; and it was cold, and wet, and cheerless.”
 
