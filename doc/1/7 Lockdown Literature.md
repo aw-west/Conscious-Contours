@@ -13,4 +13,4 @@ In the eight reflective essays that comprise the book, Douglas explores a range 
 
 The Magician’s Glass is a read full of wonder, which took me on an emotional journey that climbing books rarely do. Shakespeare wrote that art should “hold a mirror up to nature” and Ed Douglas certainly achieves this. However, Shakespeare only has a rating of 2.6 on Goodreads, so I’ll leave that opinion to you.
 
-![Untitled Two](img/Untitled-Two.jpg "Untitled Two")
+![Untitled Two](img/1/Untitled-Two.jpg "Untitled Two")
